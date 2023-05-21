@@ -1,4 +1,4 @@
-package easy.hard.problem_4;
+package hard.problem_4;
 
 public class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
