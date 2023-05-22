@@ -10,10 +10,10 @@ public class Solution {
             digits[r + 1] = digits[r + 1] % 10;
             r--;
         }
-        if (digits[0] > 9) {
+        if (digits[0] == 10) {
             int[] result = new int[digits.length + 1];
             result[0] = 1;
-            digits[0] = digits[0] % 10;
+            digits[0] = 0;
             for (int i = 1; i < result.length; i++) {
                 result[i] = digits[i - 1];
             }
